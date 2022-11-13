@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Trend() {
+function Guidelines() {
   return (
     <div>Trend</div>
   )
 }
 
-export default Trend
+export default Guidelines

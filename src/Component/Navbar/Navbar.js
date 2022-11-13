@@ -18,10 +18,10 @@ function Navbar() {
                         <div className={classes.nav}>
                             <div><Typography variant="h6" component={Link} to='/' className={classes.title}  sx={{fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif", fontWeight: "bold", fontSize: "3.5vh" }}>PRECARE</Typography></div>
                             <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/'  >Home </Typography></div>
-                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/movies'  >Symptoms </Typography></div>
-                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/series'  >Disease </Typography></div>
-                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/popular' >Doctor </Typography></div>
-                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/trend'  > Guidelines </Typography></div>
+                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/symptoms'  >Symptoms </Typography></div>
+                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/disease'  >Disease </Typography></div>
+                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/doctor' >Doctor </Typography></div>
+                            <div><Typography className={classes.navlink} variant="h6" component={Link} sx={{ fontSize: "2.4vh", margin: "0 2vw 0 2vw", fontFamily: "Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif" }} to='/guidelines'  > Guidelines </Typography></div>
                         </div>
 
                         <div className={classes.nav}>

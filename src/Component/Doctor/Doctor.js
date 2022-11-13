@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Popular() {
+function Doctor() {
   return (
     <div>Popular</div>
   )
 }
 
-export default Popular
+export default Doctor

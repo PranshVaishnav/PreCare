@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Series() {
+function Disease() {
   return (
     <div>Series</div>
   )
 }
 
-export default Series
+export default Disease
