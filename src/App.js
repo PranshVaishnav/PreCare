@@ -8,26 +8,13 @@ import Disease from "./Component/Disease/Disease";
 import Doctor from "./Component/Doctor/Doctor";
 import Guidelines from "./Component/Guidelines/Guidelines";
 import axios from 'axios';
-
+import Footer from './Component/Footer/Footer'
 import "./index.css"
 
 function App() {
 
-
-  const [data, setData] = useState("No Disease");
-
-
-
-  useEffect(() => {
-    // getDisease()
-    axios.get('http://localhost:5000/disease')
-      .then((response) => {
-        console.log(response);
-        setData(response.data);
-      });
-  }, []);
-
   return (
+    <div>
     <BrowserRouter>
       <Navbar />
       <Container maxWidth='xl'>
@@ -39,7 +26,9 @@ function App() {
           <Route path='/guidelines' exact element={<Guidelines />} />
         </Routes>
       </Container>
+        <Footer/>
     </BrowserRouter>
+</div>
   )
 }
 

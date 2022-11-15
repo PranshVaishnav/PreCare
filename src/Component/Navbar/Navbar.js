@@ -11,7 +11,7 @@ function Navbar() {
 
     const classes = useStyles();
     return (
-        <AppBar style={{ background: '#000000', width: "100%" }} position="static">
+        <AppBar style={{ background: '#ffffff', width: "100%" }} position="static">
             <Container maxWidth="xl">
                 <Toolbar>
                     <div className={classes.section}>

@@ -13,7 +13,7 @@ export default makeStyles(()=>({
     ,
     navlink:{
         textDecoration:"none",
-        color:"white",   
+        color:"black",   
     },
     section:{
         width:"90%",
